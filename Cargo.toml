@@ -1,0 +1,14 @@
+[package]
+name = "ll1engine"
+version = "0.1.0"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/minghu6/rust-ll1engine"
+license = "0BSD"
+description = "Embeded LL(1) rule engine"
+
+[dependencies]
+indexmap = "1.6.*"
+itertools = "0.10.*"
+regex = "1"
+m6stack = "0.1.0"
